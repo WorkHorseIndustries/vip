@@ -1,0 +1,9 @@
+// vips 
+PASS: resize_test.go:70: ResizeSuite.BenchmarkLargeResize      	      20       	  53172795 ns/op
+PASS: resize_test.go:86: ResizeSuite.BenchmarkSquareThumbnail  	      20       	 112098673 ns/op
+PASS: resize_test.go:54: ResizeSuite.BenchmarkThumbnailResize  	      50       	  30385926 ns/op
+
+//imaging only
+PASS: resize_test.go:70: ResizeSuite.BenchmarkLargeResize      	      20       	  56316244 ns/op
+PASS: resize_test.go:86: ResizeSuite.BenchmarkSquareThumbnail  	      20       	 122318220 ns/op
+PASS: resize_test.go:54: ResizeSuite.BenchmarkThumbnailResize  	      50       	  32604137 ns/op
